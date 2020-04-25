@@ -1,28 +1,60 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <title>TypeScriptTD</title>
-    <!--    <link rel="stylesheet" type="text/css" href="app.css" type="text/css" />-->
-    <!--    <script src="../node_modules/phaser/src/Phaser.js" type="application/javascript" ></script>-->
-    <script type="application/javascript" src="/typescripttd-dist/js/commons.js"></script>
-    <script type="application/javascript" src="/typescripttd-dist/js/phaser.js"></script>
-    <script type="application/javascript" src="/typescripttd-dist/js/vendor.js"></script>
-    <script type="application/javascript" src="/typescripttd-dist/js/main.js"></script>
-    </body>
+<!--    <link rel="stylesheet" type="text/css" href="app.css" type="text/css" />-->
+<!--    <script src="../node_modules/phaser/src/Phaser.js" type="application/javascript" ></script>-->
+    <script src="//cdn.jsdelivr.net/phaser/2.6.2/phaser.min.js"></script>
+    <script src="index.js" type="application/javascript"></script>
+    <script src="MainMenuScreen.js" type="application/javascript"></script>
+    <script src="DefeatScreen.js" type="application/javascript"></script>
+    <script src="GameScreen.js" type="application/javascript"></script>
+    <script src="HelpScreen1.js" type="application/javascript"></script>
+    <script src="HelpScreen2.js" type="application/javascript"></script>
+    <script src="HelpScreen3.js" type="application/javascript"></script>
+    <script src="HelpScreen4.js" type="application/javascript"></script>
+    <script src="LevelSelectScreen.js" type="application/javascript"></script>
+    <script src="MainMenuScreen.js" type="application/javascript"></script>
+    <script src="VictoryScreen.js" type="application/javascript"></script>
 
+    <script src="Engine/Button.js" type="application/javascript"></script>
+    <script src="Engine/Cell.js" type="application/javascript"></script>
+    <script src="Engine/EnemyInstance.js" type="application/javascript"></script>
+    <script src="Engine/Grid.js" type="application/javascript"></script>
+    <script src="Engine/PathPlanner.js" type="application/javascript"></script>
+    <script src="Engine/Spawner.js" type="application/javascript"></script>
+    <script src="Engine/TowerButton.js" type="application/javascript"></script>
+    <script src="Engine/TowerInstance.js" type="application/javascript"></script>
+    <script src="Engine/Vector2.js" type="application/javascript"></script>
+
+    <script src="Engine/Data/CreepData.js" type="application/javascript"></script>
+    <script src="Engine/Data/EnemyData.js" type="application/javascript"></script>
+    <script src="Engine/Data/MapData.js" type="application/javascript"></script>
+    <script src="Engine/Data/TowerData.js" type="application/javascript"></script>
+    <script src="Engine/Data/WaveData.js" type="application/javascript"></script>
+
+    <script src="Engine/Weapons/DumbWeapon.js" type="application/javascript"></script>
+    <script src="Engine/Weapons/IWeapon.js" type="application/javascript"></script>
+    <script src="Engine/Weapons/LaserWeapon.js" type="application/javascript"></script>
+    <script src="Engine/Weapons/SmartWeapon.js" type="application/javascript"></script>
+    <script src="Engine/Weapons/WaveWeapon.js" type="application/javascript"></script>
+
+    <script src="Engine/Weapons/Ammo/Ammo.js" type="application/javascript"></script>
+    <script src="Engine/Weapons/Ammo/BeamAmmo.js" type="application/javascript"></script>
+    <script src="Engine/Weapons/Ammo/DumbAmmo.js" type="application/javascript"></script>
+    <script src="Engine/Weapons/Ammo/IAmmo.js" type="application/javascript"></script>
+    <script src="Engine/Weapons/Ammo/SmartAmmo.js" type="application/javascript"></script>
+    <script src="Engine/Weapons/Ammo/WaveAmmo.js" type="application/javascript"></script>
 </head>
-
 <body>
-    <h1>hello</h1>
+<h1>asdfasdfasdf</h1>
     <script>
-        window.onload = function() {
-            var game = new TypeScriptTD.Boot();
+        window.onload = function () {
+            var game = new TypeScriptTD.App();
         };
     </script>
     <div id="TypeScript"></div>
 </body>
-
 </html>
