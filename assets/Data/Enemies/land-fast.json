@@ -1,0 +1,12 @@
+﻿{
+
+    "Id": "land-fast",
+    "CanFly": "false",
+    "Speed": "1.7",
+    "Health": "90",
+    "Worth": "1",
+    "Texture": "land-fast",
+    "DeathSoundId": "25_Fast_Land_Enemy_Death",
+    "SpawnSoundId": "24_Fast_Land_Enemy_Spawn"
+  
+}

@@ -1,0 +1,21 @@
+﻿{
+    "Id": "tower-laser",
+    "WeaponType": "LaserWeapon",
+    "Level": "0",
+    "Cost": "12",
+    "TimeToBuildMs": "3000",
+    "TimeToSellMs": "0",
+    "Damage": "10",
+    "ReloadTimeMs": "500",
+    "MinRange": "0",
+    "MaxRange": "5",
+    "Texture": "tower-laser",
+    "ShotTexture": "fx-laser",
+    "ShotSpeed": "5",
+    "CanShootFlying": "true",
+    "CanShootLand": "true",
+    "BuildSoundId": "10_Construction_Tower",
+    "SellSoundId": "11_Sell_Tower",
+    "UpgradeSoundId": "12_Construction_Tower_Upgrade",
+    "ShotSoundId": "05_Laser_Firing"
+}

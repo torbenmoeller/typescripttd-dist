@@ -1,0 +1,65 @@
+﻿{
+    "MapId": "test01",
+    "FriendlyName": "Test",
+    "StartingCash": "50",
+    "BackgroundTexture": "wasteland",
+    "NumLives": "3",
+    "FocusColor": "128,128,128,255",
+    "VictorySoundId": "08_Victory",
+    "DefeatSoundId": "09_Defeat_Loses_Level",
+    "WaveStartSoundId": "07_Wave_Begin",
+    "MapStartSoundId": "19_New_Map_Loads",
+    "Waves": [
+        {
+            "WorthMod": "3",
+            "HealthMod": "1",
+            "Creep": {
+                "CreepId": "landBasic",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "2",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "3",
+            "HealthMod": "1",
+            "Creep": {
+                "CreepId": "flyerFast",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "2",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "3",
+            "HealthMod": "1.5",
+            "Creep": [
+                {
+                    "CreepId": "landBasic",
+                    "Entrance": "spawn",
+                    "Exit": "exit",
+                    "Number": "1",
+                    "TimeBetweenMs": "3000"
+                },
+                {
+                    "CreepId": "landSlow",
+                    "Entrance": "spawn",
+                    "Exit": "exit",
+                    "Number": "1",
+                    "TimeBetweenMs": "3000",
+                    "SpawnTimeOffset": "1000"
+                },
+                {
+                    "CreepId": "landFast",
+                    "Entrance": "spawn",
+                    "Exit": "exit",
+                    "Number": "1",
+                    "TimeBetweenMs": "3000",
+                    "SpawnTimeOffset": "2000"
+                }
+            ]
+        }
+    ]
+}

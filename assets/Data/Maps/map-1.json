@@ -1,0 +1,278 @@
+﻿{
+    "MapId": "mis01",
+    "FriendlyName": "Mission 1",
+    "StartingCash": "100",
+    "BackgroundTexture": "Map1",
+    "NumLives": "10",
+    "FocusColor": "128,128,128,255",
+    "VictorySoundId": "08_Victory",
+    "DefeatSoundId": "09_Defeat_Loses_Level",
+    "WaveStartSoundId": "07_Wave_Begin",
+    "MapStartSoundId": "19_New_Map_Loads",
+    "Waves": [
+        {
+            "WorthMod": "2",
+            "HealthMod": "1",
+            "Creep": {
+                "CreepId": "land-basic",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "2",
+            "HealthMod": "2",
+            "Creep": {
+                "CreepId": "land-slow",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "2",
+            "HealthMod": "2",
+            "Creep": {
+                "CreepId": "land-basic",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "2",
+            "HealthMod": "2",
+            "Creep": {
+                "CreepId": "land-fast",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "3",
+            "HealthMod": "2",
+            "Creep": {
+                "CreepId": "land-basic",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "3",
+            "HealthMod": "3",
+            "Creep": {
+                "CreepId": "land-basic",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "4",
+            "HealthMod": "3",
+            "Creep": {
+                "CreepId": "land-basic",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "4",
+            "HealthMod": "3",
+            "Creep": {
+                "CreepId": "land-fast",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "3",
+            "HealthMod": "4",
+            "Creep": {
+                "CreepId": "land-basic",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "3",
+            "HealthMod": "5",
+            "Creep": [
+                {
+                    "CreepId": "land-basic",
+                    "Entrance": "spawn",
+                    "Exit": "exit",
+                    "Number": "5",
+                    "TimeBetweenMs": "3000"
+                },
+                {
+                    "CreepId": "land-slow",
+                    "Entrance": "spawn",
+                    "Exit": "exit",
+                    "Number": "5",
+                    "TimeBetweenMs": "3000",
+                    "SpawnTimeOffset": "1000"
+                },
+                {
+                    "CreepId": "land-fast",
+                    "Entrance": "spawn",
+                    "Exit": "exit",
+                    "Number": "5",
+                    "TimeBetweenMs": "3000",
+                    "SpawnTimeOffset": "2000"
+                }
+            ]
+        },
+        {
+            "WorthMod": "5",
+            "HealthMod": "1",
+            "Creep": {
+                "CreepId": "flyer-slow",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "2000"
+            }
+        },
+        {
+            "WorthMod": "3",
+            "HealthMod": "4",
+            "Creep": {
+                "CreepId": "land-basic",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "3",
+            "HealthMod": "4",
+            "Creep": {
+                "CreepId": "land-fast",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "4",
+            "HealthMod": "5",
+            "Creep": {
+                "CreepId": "land-slow",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "3",
+            "HealthMod": "5",
+            "Creep": {
+                "CreepId": "land-basic",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "3",
+            "HealthMod": "1",
+            "Creep": {
+                "CreepId": "flyer-slow",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "3",
+            "HealthMod": "7",
+            "Creep": {
+                "CreepId": "land-basic",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "3",
+            "HealthMod": "7",
+            "Creep": {
+                "CreepId": "land-fast",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "3",
+            "HealthMod": "9",
+            "Creep": {
+                "CreepId": "land-basic",
+                "Entrance": "spawn",
+                "Exit": "exit",
+                "Number": "10",
+                "TimeBetweenMs": "1000"
+            }
+        },
+        {
+            "WorthMod": "3",
+            "HealthMod": "3",
+            "Creep": [
+                {
+                    "CreepId": "flyer-slow",
+                    "Entrance": "spawn",
+                    "Exit": "exit",
+                    "Number": "5",
+                    "TimeBetweenMs": "4000"
+                },
+                {
+                    "CreepId": "flyer-fast",
+                    "Entrance": "spawn",
+                    "Exit": "exit",
+                    "Number": "5",
+                    "TimeBetweenMs": "4000",
+                    "SpawnTimeOffset": "1000"
+                },
+                {
+                    "CreepId": "flyer-slow",
+                    "Entrance": "spawn",
+                    "Exit": "exit",
+                    "Number": "5",
+                    "TimeBetweenMs": "4000",
+                    "SpawnTimeOffset": "2000"
+                },
+                {
+                    "CreepId": "flyer-fast",
+                    "Entrance": "spawn",
+                    "Exit": "exit",
+                    "Number": "5",
+                    "TimeBetweenMs": "4000",
+                    "SpawnTimeOffset": "3000"
+                }
+            ]
+        }
+    ]
+}

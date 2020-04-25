@@ -1,0 +1,12 @@
+﻿{
+
+    "Id": "flyer-slow",
+    "CanFly": "true",
+    "Speed": "1.1",
+    "Health": "150",
+    "Worth": "1",
+    "Texture": "flyer-slow",
+    "DeathSoundId": "27_Slow_Flyer_Death",
+    "SpawnSoundId": "26_Slow_Flyer_Spawn"
+  
+}

@@ -1,0 +1,21 @@
+﻿{
+    "Id": "tower-gun",
+    "WeaponType": "DumbProjectile",
+    "Level": "2",
+    "Cost": "15",
+    "TimeToBuildMs": "2000",
+    "TimeToSellMs": "0",
+    "Damage": "30",
+    "ReloadTimeMs": "700",
+    "MinRange": "0",
+    "MaxRange": "5",
+    "Texture": "tower-gun2",
+    "ShotTexture": "fx-small-round",
+    "ShotSpeed": "3",
+    "CanShootFlying": "true",
+    "CanShootLand": "true",
+    "BuildSoundId": "10_Construction_Tower",
+    "SellSoundId": "11_Sell_Tower",
+    "UpgradeSoundId": "12_Construction_Tower_Upgrade",
+    "ShotSoundId": "01_Single_Machine_Gun_Cannon"
+}

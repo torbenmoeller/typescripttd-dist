@@ -1,0 +1,12 @@
+﻿{
+
+    "Id": "land-basic",
+    "CanFly": "false",
+    "Speed": "1",
+    "Health": "100",
+    "Worth": "1",
+    "Texture": "land-basic",
+    "DeathSoundId": "21_Basic_Land_Enemy_Death",
+    "SpawnSoundId": "20_Basic_Land_Enemy_Spawn"
+  
+}

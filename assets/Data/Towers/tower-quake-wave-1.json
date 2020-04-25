@@ -1,0 +1,21 @@
+﻿{
+    "Id": "tower-quake-wave",
+    "WeaponType": "RadialShockwave",
+    "Level": "1",
+    "Cost": "20",
+    "TimeToBuildMs": "2000",
+    "TimeToSellMs": "0",
+    "Damage": "30",
+    "ReloadTimeMs": "1500",
+    "MinRange": "0",
+    "MaxRange": "4",
+    "Texture": "tower-quake-wave1",
+    "ShotTexture": "fx-quake-wave",
+    "ShotSpeed": "2",
+    "CanShootFlying": "false",
+    "CanShootLand": "true",
+    "BuildSoundId": "10_Construction_Tower",
+    "SellSoundId": "11_Sell_Tower",
+    "UpgradeSoundId": "12_Construction_Tower_Upgrade",
+    "ShotSoundId": "06_Earthquake"
+}
